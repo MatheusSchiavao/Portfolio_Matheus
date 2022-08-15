@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/Logo_ms.png" type="image/x-icon" />
+    <title>Portfólio do Matheus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home"><img src="image/Logo_ms.png" alt="" /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#port">Portfólio</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </div>
+      <div class="menu-mobile">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#port">Portfólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="btn-mobile">
+        <ion-icon name="grid-outline"></ion-icon>
+      </div>
+    </header>
+
+    <main id="home">
+      <div class="container">
+        <div class="icons">
+          <a href="https://www.instagram.com/m.schiavao/"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="https://github.com/MatheusSchiavao"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/matheus-schiav%C3%A3o-arantes-25206a227/"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </div>
+        <div class="title">
+          <h1>Matheus</h1>
+          <h2>developer</h2>
+          <h3>Web Front-end</h3>
+        </div>
+      </div>
+    </main>
+
+    <section id="about">
+      <div class="container">
+        <div class="title">
+          <h1>Sou desenvolvedor Web Front-end</h1>
+          <p>Algumas das linguagens e frameworks que domino.</p>
+          <div class="box-title">
+            <p>70%</p>
+            <div class="b1"><div class="b2"></div></div>
+            <span>HTML</span>
+
+            <p>65%</p>
+            <div class="b1"><div class="b3"></div></div>
+            <span>CSS</span>
+
+            <p>40%</p>
+            <div class="b1"><div class="b4"></div></div>
+            <span>JavaScript</span>
+
+            <p>30%</p>
+            <div class="b1"><div class="b5"></div></div>
+            <span>SCSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="port">
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+        <div class="cards">
+          <h1 class="title_proj">Projetos</h1>
+          <label class="card" for="item-1" id="song-1">
+            <img src="image/01.png" alt="" />
+            <h1>Em breve</h1>
+            <p>Em Breve</p>
+            <button>
+              <a href="https://github.com/MatheusSchiavao">Acesse</a>
+            </button>
+          </label>
+
+          <label class="card" for="item-2" id="song-2">
+            <img src="image/02.png" alt="" />
+            <h1>Em breve</h1>
+            <p>Em breve</p>
+            <button>
+              <a href="https://github.com/MatheusSchiavao">Acesse</a>
+            </button>
+          </label>
+
+          <label class="card" for="item-3" id="song-3">
+            <img src="image/03.png" alt="" />
+            <h1>Em breve</h1>
+            <p>Em breve</p>
+            <button>
+              <a href="https://github.com/MatheusSchiavao">Acesse</a>
+            </button>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="content-contact">
+          <div class="contact-left">
+            <h1>Contate-me</h1>
+            <div class="linha"></div>
+            <ion-icon name="mail-outline"></ion-icon>
+            <span>matheus.schiavao08@gmail.com</span>
+            <ion-icon name="call-outline"></ion-icon>
+            <span>+55 (12) 98859-9519</span>
+            <ion-icon name="location-outline"></ion-icon>
+            <span>São José dos Campos - SP</span>
+          </div>
+          <div class="contact-right">
+            <h1>Preencha o formulário</h1>
+            <div class="linha"></div>
+            <input type="email" placeholder="E-mail" />
+            <input type="text" placeholder="Nome" />
+            <textarea placeholder="Mensagem"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span
+        >© 2022 <a href="">Matheus Schiavão</a> Todos os direitos
+        reservados</span
+      >
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
