@@ -1,13 +1,11 @@
 $(document).ready(function () {
-  $(".back-to-top").css("display", "none");
-$("body").scroll(function() {
-    if($(this).scrollTop() == 0){
-      $(".back-to-top").css("display", "none");
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 550) {
+      $(".navbar").addClass("solid");
+      $(".back-to-top").addClass("visible");
     } else {
-      $(".back-to-top").css("display", "block");
+      $(".navbar").removeClass("solid");
+      $(".back-to-top").removeClass("visible");
     }
   });
-$(".back-to-top").click(function() {
-    $("html, body").animate({scrollTop: 0}, 800);
-   });
-});
+})
