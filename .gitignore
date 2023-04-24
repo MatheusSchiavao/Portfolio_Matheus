@@ -1,0 +1,8 @@
+# Fontes do projeto
+/fonts
+
+# Arquivo git
+.gitattributes
+
+# Pasta com a tradução do site
+/html-br
