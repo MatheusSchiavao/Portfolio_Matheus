@@ -29,6 +29,9 @@
     <link href="css/main.css" rel="stylesheet" />
   </head>
   <body id="home">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+    </div>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -82,9 +85,8 @@
           </div>
         </div>
       </div>
-      
-      <div id="about" class="row cover">
 
+      <div id="about" class="row cover">
         <h2 class="text-center" data-aos="fade-down">About Me</h2>
         <div class="row">
           <div class="col-md-6 text-center about-info">
@@ -153,8 +155,8 @@
                 >
                   <h4 class="portfolio-projects--title">Pai & Filhos</h4>
                   <p class="portfolio-projects--desc">
-                    Website of a bed bath n' table company. 
-                    <br>
+                    Website of a bed bath n' table company.
+                    <br />
                     Fullstack project.
                   </p>
                   <p class="portfolio-projects--desc">
@@ -175,7 +177,11 @@
                   data-aos-easing="linear"
                   data-aos-duration="1500"
                 >
-                  <img class="portfolio-projects--image" src="./img/projects/p&f.jpg" alt="Pai & Filhos" />
+                  <img
+                    class="portfolio-projects--image"
+                    src="./img/projects/p&f.jpg"
+                    alt="Pai & Filhos"
+                  />
                 </div>
               </div>
             </div>
@@ -189,8 +195,8 @@
                 >
                   <h4 class="portfolio-projects--title">Tic Tac Toe</h4>
                   <p class="portfolio-projects--desc">
-                    A simple game. 
-                    <br>
+                    A simple game.
+                    <br />
                     Front-end project.
                   </p>
                   <p class="portfolio-projects--desc">
@@ -210,7 +216,11 @@
                   data-aos-easing="linear"
                   data-aos-duration="1500"
                 >
-                  <img class="portfolio-projects--image" src="./img/projects/ttt.png" alt="Tic Tac Toe" />
+                  <img
+                    class="portfolio-projects--image"
+                    src="./img/projects/ttt.png"
+                    alt="Tic Tac Toe"
+                  />
                 </div>
               </div>
             </div>
@@ -226,8 +236,8 @@
                 >
                   <h4 class="portfolio-projects--title">Calculator</h4>
                   <p class="portfolio-projects--desc">
-                    A basic Calculator. 
-                    <br>
+                    A basic Calculator.
+                    <br />
                     Front-end project.
                   </p>
                   <p class="portfolio-projects--desc">
@@ -268,7 +278,7 @@
                   </h4>
                   <p class="portfolio-projects--desc">
                     Website intended to simulate the SpaceX website.
-                    <br>
+                    <br />
                     Front-end project.
                   </p>
                   <p class="portfolio-projects--desc">
@@ -306,14 +316,15 @@
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine"
                 >
-                  <h4 class="portfolio-projects--title">
-                    tip calculator
-                  </h4>
+                  <h4 class="portfolio-projects--title">tip calculator</h4>
                   <p class="portfolio-projects--desc">
-                    A calculator to know the tip amount for each. 
-                    <br>
-                    Front-end project.</p>
-                  <p class="portfolio-projects--desc">Used: HTML, CSS and <abbr title="JavaScript">JS</abbr></p>
+                    A calculator to know the tip amount for each.
+                    <br />
+                    Front-end project.
+                  </p>
+                  <p class="portfolio-projects--desc">
+                    Used: HTML, CSS and <abbr title="JavaScript">JS</abbr>
+                  </p>
                   <a
                     class="btn btn-rounded portfolio-projects--btn"
                     href="https://matheusschiavao.github.io/Calculadora_De_Gorjeta/"
@@ -344,13 +355,15 @@
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine"
                 >
-                  <h4 class="portfolio-projects--title">
-                    Type Event
-                  </h4>
-                  <p class="portfolio-projects--desc">Site aimed at creating events with certificates.
-                    <br>
-                    Fullstack project.</p>
-                  <p class="portfolio-projects--desc">Used: Python, Django, HTML and CSS</p>
+                  <h4 class="portfolio-projects--title">Type Event</h4>
+                  <p class="portfolio-projects--desc">
+                    Site aimed at creating events with certificates.
+                    <br />
+                    Fullstack project.
+                  </p>
+                  <p class="portfolio-projects--desc">
+                    Used: Python, Django, HTML and CSS
+                  </p>
                   <a
                     class="btn btn-rounded portfolio-projects--btn"
                     href="https://github.com/MatheusSchiavao/type_event"
@@ -438,18 +451,30 @@
           </ul>
         </div>
         <div class="text-center">
-          <img
-            src="./img/logo/svg/MS_Logo_Escuro_novo.svg"
-            style="width: 25%"
-            alt="MS logo"
-          />
+          <h3
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            click to view my CV  ↙
+          </h3>
+          <a
+            href="./img/currículos/Curriculum Matheus Schiavão.pdf"
+            download="Curriculum Matheus Schiavão"
+          >
+            <img
+              src="../img/logo/svg/MS_Logo_Escuro_novo.svg"
+              style="width: 20%"
+              alt="MS logo"
+            />
+          </a>
         </div>
       </div>
     </div>
     <footer class="footer">
       <div class="container">
         <p class="pull-right" id="scroll-home" style="margin-bottom: 0">
-          &copy 2022
+          &copy 2023
           <a
             href="https://www.linkedin.com/in/matheus-schiavão-arantes-25206a227/"
             target="_blank"
@@ -470,5 +495,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/title.js"></script>
+    <script src="./js/loading.js"></script>
   </body>
 </html>
